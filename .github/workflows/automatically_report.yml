@@ -1,8 +1,8 @@
 name: Send vocabularies by scheduled times
 on:
   schedule:
-    - cron: "55 18 * * *" # Runs at 22:00 GMT+7
-    # - cron: "0 3 * * THU" # Runs at 10:00 GMT+7, only on Thursday
+    - cron: "0 9 * * *" # Runs at 15:00 GMT+7
+    - cron: "0 3 * * *" # Runs at 10:00 GMT+7
     # - cron: "30 3 * * SUN" # Runs at 10:30 GMT+7, only on Sunday
   workflow_dispatch:
 
